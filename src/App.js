@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -5,9 +6,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h2>Jason's Portfolio</h2>
+        <h1>Jason Bernzweig</h1>
+        <nav>
+          <a href="#about">About Me</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Work</a>
+          <a href="#resume">Resume</a>
+        </nav>
       </header>
+      <section>
+        About Me
+      </section>
+
+      <footer>
+        {/* This here is a nice footer */}
+      </footer>
     </div>
   );
 }
