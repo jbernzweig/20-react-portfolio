@@ -10,15 +10,16 @@ function App() {
         <nav>
           <a href="#about">About Me</a>
           <a href="#work">Work</a>
-          <a href="#contact">Work</a>
+          <a href="#contact">Contact</a>
           <a href="#resume">Resume</a>
         </nav>
       </header>
-      <section>
+      <section id="about">
         About Me
       </section>
 
       <footer>
+        Contact Me | 440-591-0465 <br></br>
         {/* This here is a nice footer */}
       </footer>
     </div>
