@@ -7,14 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 nav a {
   margin: 25px;
   color: red;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+#about {
+  height: 50vh;
+  background-color: red;
+
 }
 
 .links {
@@ -30,6 +34,6 @@ code {
     monospace;
 }
 
-.footer {
-  margin: 100px;
+footer {
+  background-color: blue;
 }

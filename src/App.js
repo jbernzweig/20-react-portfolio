@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
 
       <footer>
         Contact Me | 440-591-0465 <br></br>
-        {/* This here is a nice footer */}
+        {/* This is a footer */}
       </footer>
     </div>
   );
